@@ -1,11 +1,15 @@
 step to run agent
-1-> go mod vendor
+1-> install dependency
+
+    --> go mod vendor
 
 2-> in powershell
-    -- .\build.ps1
+    
+    --> .\build.ps1
 
 3-> exe and sh file create in bin folder
     based on your os run application
+       
         --> windows-amd64
             ./bin/agent-windows-amd64.exe
 
